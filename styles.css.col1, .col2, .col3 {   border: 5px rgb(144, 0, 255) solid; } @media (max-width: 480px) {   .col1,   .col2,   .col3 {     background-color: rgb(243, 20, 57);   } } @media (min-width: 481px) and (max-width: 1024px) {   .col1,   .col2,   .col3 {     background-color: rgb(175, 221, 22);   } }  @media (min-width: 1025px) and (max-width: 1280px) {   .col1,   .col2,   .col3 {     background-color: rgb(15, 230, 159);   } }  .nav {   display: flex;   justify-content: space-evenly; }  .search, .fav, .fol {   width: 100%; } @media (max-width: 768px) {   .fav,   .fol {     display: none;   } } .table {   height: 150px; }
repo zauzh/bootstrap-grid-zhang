@@ -1,0 +1,47 @@
+.col1,
+.col2,
+.col3 {
+  border: 5px rgb(144, 0, 255) solid;
+}
+@media (max-width: 480px) {
+  .col1,
+  .col2,
+  .col3 {
+    background-color: rgb(243, 20, 57);
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .col1,
+  .col2,
+  .col3 {
+    background-color: rgb(175, 221, 22);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .col1,
+  .col2,
+  .col3 {
+    background-color: rgb(15, 230, 159);
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.search,
+.fav,
+.fol {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .fav,
+  .fol {
+    display: none;
+  }
+}
+.table {
+  height: 150px;
+}
