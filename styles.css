@@ -7,7 +7,7 @@
   .col1,
   .col2,
   .col3 {
-    background-color: rgb(243, 20, 57);
+    background-color: rgb(215, 26, 139);
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -47,4 +47,12 @@
 }
 .btn {
   width: 100px;
+}
+.mes1 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.reply-textarea {
+  height: 200px;
 }
